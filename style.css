@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.text-primary{
+    color:#FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color:white;
+    font-size: 20px;
+    padding: 15px 30px;
+
+}
+.section-title{
+    color:#181818;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-description{
+    color:grey;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    padding: 50px 0px;
+}
+
+.nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color:grey;
+}
+
+header{
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    
+
+}
+
+.banner{
+    padding: 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.banner-content{
+    min-width: 500px;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+
+.banner-main-heading{
+    margin-top: 20px;
+    font-size: 55px;
+}
+.banner-description{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.banner-content button{
+    margin-top: 40px;
+}
+
+.banner-greeting{
+    font-size: 20px;
+}
+
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-description{
+    margin-bottom: 20px;
+}
+
+#what-i-do{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill{
+    padding: 30px;
+   
+    
+}
+
+.skill:hover{
+    border: 1px solid rgb(242, 140, 177);
+
+}
+
+.skill-description{
+   margin-top: 20px;
+}
+.skill-title{
+    margin-top: 10px;
+}
+
+.resume{
+    margin-top: 50px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    color:grey;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 55px;
+}
+
+.resume-item{
+    margin-top: 15px;
+}
+
+.resume-item-title{
+margin-top: 15px;
+}
+
+.resume-item-info{
+    margin-top: 15px;
+}
+.resume-item-des{
+    margin-top: 15px;
+}
+
+.resume-container hr{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+     gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:grey;
+    border-radius: 5px;
+    background-color: white;
+    border: 0px;
+    width: 100%;
+
+}
+
+.socail-links a{
+    margin-right: 20px;
+}
+
